@@ -1,0 +1,23 @@
+.bg {
+  background-size: cover;
+  font-family: 'Roboto';
+}
+
+.body {
+  background-color: #c7babd;
+  padding: 50px 300px 50px 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+@media screen and (max-width: 575px) {
+  .body {
+    padding: 30px 40px 30px 40px;
+  }
+}
+.emoji-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
